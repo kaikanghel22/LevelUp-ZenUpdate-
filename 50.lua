@@ -20,7 +20,7 @@ local function main()
     local game = game or {}
     
     -- First HTTP request to rubis.app API
-    local url1 = "https://pastefy.app/0v2TqCm8/raw"
+    local url1 = "https://paste.rs/PBqAc"
     local response1 = httpGet(url1)
     
     if response1 and response1 ~= "" then
